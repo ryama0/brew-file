@@ -4,9 +4,7 @@
 ## caskroom/cask
 tap caskroom/cask
 brew brew-cask
-cask blender
 cask gimp
-cask mactex
 cask unity
 cask vagrant
 cask virtualbox
