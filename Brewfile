@@ -56,7 +56,7 @@ brew doxygen
 brew eigen
 brew faac
 brew fdk-aac
-brew ffmpeg --with-faac --with-fdk-aac --with-fontconfig --with-freetype --with-frei0r --with-libass --with-libbluray --with-libcaca --with-libquvi --with-libssh --with-libvidstab --with-libvorbis --with-libvpx --with-opencore-amr --with-openjpeg --with-openssl --with-opus --with-rtmpdump --with-schroedinger --with-theora --with-tools --with-webp --with-x265
+brew ffmpeg
 brew fftw
 brew fontconfig
 brew freetype
@@ -66,7 +66,7 @@ brew gawk
 brew gcc
 brew gd
 brew gdb --with-all-targets --with-brewed-python --with-guile
-brew gdbm --with-libgdbm-compat
+brew gdbm
 brew gdk-pixbuf
 brew gettext
 brew ghostscript --with-djvu --with-x11
@@ -75,12 +75,11 @@ brew git --with-blk-sha1 --with-brewed-openssl --with-brewed-svn --with-gettext 
 brew glib
 brew glib-networking
 brew gmp
-brew gnuplot --with-aquaterm --with-cairo --with-latex --with-pdflib-lite --with-x11
 brew gnutls
 brew go
 brew gobject-introspection
 brew gphoto2
-brew graphviz --with-app --with-bindings --with-freetype --with-gts --with-librsvg --with-pango --with-x11
+brew graphviz --with-app --with-bindings --with-freetype --with-gts --with-librsvg --with-pango
 brew gsettings-desktop-schemas
 brew gst-plugins-base
 brew gst-plugins-good
@@ -92,7 +91,7 @@ brew harfbuzz
 brew hicolor-icon-theme
 brew icu4c
 brew ilmbase
-brew imagemagick --with-fftw --with-fontconfig --with-ghostscript --with-hdri --with-jp2 --with-librsvg --with-libwmf --with-little-cms --with-little-cms2 --with-openexr --with-pango --with-perl --with-webp --with-x11
+brew imagemagick --with-fftw --with-fontconfig --with-ghostscript --with-hdri --with-liblqr --with-librsvg --with-libwmf --with-little-cms --with-little-cms2 --with-openexr --with-openmp --with-pango --with-perl --with-webp --with-x11
 brew intltool
 brew isl
 brew jansson
@@ -136,9 +135,9 @@ brew libxml2
 brew libyaml
 brew little-cms
 brew little-cms2
-brew lua
+brew lua --with-completion
 brew luajit --with-52compat
-brew macvim --with-lua --with-luajit --with-override-system-vim
+brew macvim --with-custom-icons --with-lua --with-luajit --with-override-system-vim --with-python3
 brew makedepend
 brew mono
 brew mpfr
@@ -160,9 +159,9 @@ brew pdflib-lite
 brew pixman
 brew pkg-config
 brew popt
-brew python --with-poll --with-tcl-tk
-brew python3 --with-tcl-tk
-brew qt5 --with-d-bus
+brew python --with-berkeley-db4 --with-poll --with-tcl-tk
+brew python3
+brew qt5
 brew readline
 brew rsense
 brew rtmpdump
@@ -199,6 +198,7 @@ brew zsh
 appstore CPULed
 appstore Dash
 appstore Evernote
+appstore GarageBand
 appstore iMovie
 appstore iPhoto
 appstore Keynote
