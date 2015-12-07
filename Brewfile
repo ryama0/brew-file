@@ -40,6 +40,7 @@ brew atk
 brew autoconf
 brew automake
 brew bdw-gc
+brew berkeley-db4
 brew bison
 brew boost --with-icu4c
 brew c-ares
@@ -110,6 +111,7 @@ brew libevent
 brew libffi
 brew libgphoto2
 brew libidn
+brew liblqr
 brew libmetalink
 brew libmpc
 brew libogg
