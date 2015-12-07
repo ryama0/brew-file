@@ -57,7 +57,7 @@ brew doxygen
 brew eigen
 brew faac
 brew fdk-aac
-brew ffmpeg
+brew ffmpeg --with-faac --with-fdk-aac --with-fontconfig --with-freetype --with-frei0r --with-libass --with-libbluray --with-libcaca --with-libquvi --with-libssh --with-libvidstab --with-libvorbis --with-libvpx --with-opencore-amr --with-openjpeg --with-openssl --with-opus --with-rtmpdump --with-schroedinger --with-theora --with-tools --with-webp --with-x265
 brew fftw
 brew fontconfig
 brew freetype
@@ -163,7 +163,7 @@ brew pkg-config
 brew popt
 brew python --with-berkeley-db4 --with-poll --with-tcl-tk
 brew python3
-brew qt5
+brew qt5 --with-d-bus
 brew readline
 brew rsense
 brew rtmpdump
