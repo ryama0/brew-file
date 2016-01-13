@@ -1,7 +1,6 @@
 
 # tap repositories and their packages
 
-## caskroom/cask
 tap caskroom/cask
 brew brew-cask
 cask gimp
@@ -10,28 +9,22 @@ cask vagrant
 cask virtualbox
 cask xquartz
 
-## homebrew/dupes
 tap homebrew/dupes
 brew tcl-tk --with-threads --with-x11
 
-## homebrew/python
 tap homebrew/python
 brew numpy --with-python3
 
-## homebrew/science
 tap homebrew/science
 brew glpk
-brew opencv3 --with-ffmpeg --with-gphoto2 --with-gstreamer --with-jasper --with-java --with-libdc1394 --with-opengl --with-qt5 --with-tbb
+brew opencv3 --with-ffmpeg --with-gphoto2 --with-gstreamer --with-jasper --with-java --with-libdc1394 --with-qt5 --with-tbb
 
-## homebrew/versions
 tap homebrew/versions
 brew openjpeg21
 
-## rcmdnk/file
 tap rcmdnk/file
 brew brew-file
 
-## sanemat/font
 tap sanemat/font
 
 # Other Homebrew packages
@@ -42,7 +35,7 @@ brew automake
 brew bdw-gc
 brew berkeley-db4
 brew bison
-brew boost --with-icu4c
+brew boost --c++11 --with-icu4c --with-mpi --without-single
 brew c-ares
 brew cairo
 brew clang-format
@@ -64,7 +57,7 @@ brew freetype
 brew frei0r
 brew fribidi
 brew gawk
-brew gcc
+brew gcc --without-multilib --with-java --with-jit --with-nls
 brew gd
 brew gdb --with-all-targets --with-brewed-python --with-guile
 brew gdbm
@@ -90,7 +83,7 @@ brew gts
 brew guile
 brew harfbuzz
 brew hicolor-icon-theme
-brew icu4c
+brew icu4c --c++11
 brew ilmbase
 brew imagemagick --with-fftw --with-fontconfig --with-ghostscript --with-hdri --with-liblqr --with-librsvg --with-libwmf --with-little-cms --with-little-cms2 --with-openexr --with-openmp --with-pango --with-perl --with-webp --with-x11
 brew intltool
@@ -139,7 +132,7 @@ brew little-cms
 brew little-cms2
 brew lua --with-completion
 brew luajit --with-52compat
-brew macvim --with-custom-icons --with-lua --with-luajit --with-override-system-vim --with-python3
+brew macvim --with-lua --with-luajit --with-override-system-vim --with-python3
 brew makedepend
 brew mono
 brew mpfr
